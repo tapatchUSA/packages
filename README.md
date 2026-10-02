@@ -23,9 +23,9 @@ The Chocolatey package sources live in [`chocolatey/`](chocolatey/).
 | App | Version | Scoop | Chocolatey | winget |
 |---|---|---|---|---|
 | [LinkMass](https://tapatch.com/tools/linkmass/) | 1.0.3 | `scoop install tapatch/linkmass` | `choco install linkmass` | `winget install TAPATCH.LinkMass` |
-| [ClickMeter](https://tapatch.com/tools/clickmeter/) | 1.0.4 | `scoop install tapatch/clickmeter` | `choco install clickmeter` | `winget install TAPATCH.ClickMeter` |
+| [ClickMeter](https://tapatch.com/tools/clickmeter/) | 1.0.5 | `scoop install tapatch/clickmeter` | `choco install clickmeter` | `winget install TAPATCH.ClickMeter` |
 | [FlowDesk](https://tapatch.com/tools/flowdesk/) | 1.0.2 | `scoop install tapatch/flowdesk` | `choco install flowdesk` | `winget install TAPATCH.FlowDesk` |
-| [Autrix](https://tapatch.com/tools/autrix/) | 1.0.5 | `scoop install tapatch/autrix` | `choco install autrix` | `winget install TAPATCH.Autrix` |
+| [Autrix](https://tapatch.com/tools/autrix/) | 1.0.6 | `scoop install tapatch/autrix` | `choco install autrix` | `winget install TAPATCH.Autrix` |
 | [WaveCheck](https://tapatch.com/tools/wavecheck/) | 1.0.3 | `scoop install tapatch/wavecheck` | `choco install wavecheck` | `winget install TAPATCH.WaveCheck` |
 | [OpTask](https://tapatch.com/tools/optask/) | 1.0.2 | `scoop install tapatch/optask` | `choco install optask` | `winget install TAPATCH.OpTask` |
 | [DownSample](https://tapatch.com/tools/downsample/) | 1.0.2 | `scoop install tapatch/downsample` | `choco install downsample` | `winget install TAPATCH.DownSample` |
