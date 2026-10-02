@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>linkmass</id>
+    <version>1.0.3</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/linkmass</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>LinkMass</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/linkmass/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/linkmass-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>hardlink hard-links duplicates duplicate-finder disk-space storage ntfs freeware windows</tags>
+    <summary>Hard link manager for Windows: find duplicate files and turn them into hard links to free disk space, no command line.</summary>
+    <description>LinkMass is the hard link manager Windows never built in. Create links, hunt duplicates, scan folder trees, and break links safely — all from a polished, theme-able GUI. No command line required. Works entirely locally with no network access.
+
+## Features
+- **Create hard links** - Link files to new locations with zero extra disk usage. Single file, flat folder, or full recursive mirror — your choice.
+- **Find duplicates** - Scan for duplicate files and convert them to hard links automatically. Recover gigabytes without moving or deleting anything.
+- **Directory scanner** - Browse any folder tree with live link counts, file sizes, and status badges. Unlink individual files in a single click.
+- **Remove links** - Safely breaks hard links using a copy-delete-rename approach. Files remain fully usable throughout the whole operation.
+- **7 themes + custom** - TAPATCH, VOID, NEON, EMBER, ARCTIC, FOREST, and SLATE built in. Custom mode lets you set any colour with a live preview.
+- **Dry-run mode** - Runs the full operation logic but touches nothing on disk. Every planned action is logged before you commit.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
+- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
+- The installer comes in the same 10 languages
+- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+
+Full changelog: https://tapatch.com/tools/linkmass/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

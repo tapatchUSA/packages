@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>netpulse</id>
+    <version>1.0.3</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/netpulse</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>NetPulse</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/netpulse/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/netpulse-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>network-monitor bandwidth firewall packet-capture connections privacy freeware windows</tags>
+    <summary>Network monitor for Windows: see which app uses your internet, packets explained in plain English, and a one-click firewall per app.</summary>
+    <description>NetPulse shows exactly which program is using your internet, how much, and where it goes — from Windows' own kernel network events, so the numbers per app are exact. Keep history as long as you like, block any app in one click, check your network for hijacking and open doors, and capture packets with a plain-English explanation of each one. Everything is measured and stored on your PC: no account, no cloud, no telemetry.
+
+## Features
+- **Exact traffic per app** - Real bytes for every program and Windows service, the websites each one looks up, and a live graph per app — straight from the kernel, not estimated.
+- **Packets, in plain English** - Capture on every adapter and see which app sent each packet. DNS, website names, HTTP and QUIC are decoded, with a one-line explanation and a hex view.
+- **Slide through a capture** - Drag the timeline to any stretch, sort by any column, and click the breakdown chart to show only the apps, sites or addresses you pick.
+- **One-click firewall** - Block any app for good or for an hour, hold new apps until you allow them, or cut all internet with one switch.
+- **Network security checks** - Watches for DNS or proxy hijacking, router spoofing, open ports, Remote Desktop and unsigned programs — and alerts you when something changes.
+- **History as long as you want** - Usage per app, site and country for any day or custom range, kept until a size you choose. Connection quality logs every outage and whose side it was on.
+- **Stays on your PC** - No account, no cloud, no telemetry. History, alerts and settings live only on this machine.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
+- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
+- The installer comes in the same 10 languages
+- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+
+Full changelog: https://tapatch.com/tools/netpulse/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,38 @@
+{
+    "version": "1.0.5",
+    "description": "Auto-clicker and macro recorder: records clicks, keys, holds and drags with millisecond timing and replays them on a hotkey.",
+    "homepage": "https://tapatch.com/tools/autrix/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://tapatch.com/terms/"
+    },
+    "notes": [
+        "Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).",
+        "The Terms of Service are shown on first launch."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://tapatch.com/downloads/Autrix-Setup-1.0.5.exe#/dl.7z",
+            "hash": "9b801adc398a3c1e0ae818b1bf771b11325616d9216f048d63f2a582ab5c37fe"
+        }
+    },
+    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -Force -ErrorAction SilentlyContinue",
+    "bin": "autrix.exe",
+    "shortcuts": [
+        [
+            "autrix.exe",
+            "Autrix"
+        ]
+    ],
+    "checkver": {
+        "url": "https://tapatch.com/pad/autrix.xml",
+        "xpath": "/XML_DIZ_INFO/Program_Info/Program_Version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://tapatch.com/downloads/Autrix-Setup-$version.exe#/dl.7z"
+            }
+        }
+    }
+}

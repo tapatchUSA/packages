@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wavecheck</id>
+    <version>1.0.3</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/wavecheck</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>WaveCheck</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/wavecheck/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/wavecheck-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>audio flac lossless spectrogram audio-analyzer fake-lossless transcode freeware windows</tags>
+    <summary>Forensic audio quality analyzer: tells you if a "lossless" file is a genuine master or an upscaled fake. No FFmpeg, fully offline.</summary>
+    <description>WaveCheck is a forensic audio quality analyzer for Windows. It decodes a file in pure Rust (no FFmpeg), measures it to broadcast spec, and tells you at a glance whether it's a genuine master or an upscaled fake. Spectral-cutoff-vs-Nyquist detection exposes MP3s renamed to FLAC; ITU-R BS.1770-4 / EBU R128 loudness, 4× oversampled true-peak, bit-depth utilisation, stereo correlation, and an STFT spectrogram fill in the full forensic picture. Scan a whole library in parallel, sort and search the results, then triage with rubber-band select and bulk move / delete. Everything runs 100% offline — your audio never leaves the machine, and analysis never modifies a file.
+
+## Features
+- **Fake-lossless detector** - Maps the real spectral cutoff against Nyquist. A FLAC that dies at 16 kHz is an upsampled MP3 — flagged with a 'lossless masquerade' note. Catches the renames every fake library is full of.
+- **Spectrum + spectrogram** - A 2048-pt Hann FFT spectrum plus a full STFT heatmap. Click either to blow it up full-window with drag-to-pan and scroll-to-zoom. The flat black shelf above a cutoff is unmistakable.
+- **Broadcast loudness** - ITU-R BS.1770-4 K-weighting and EBU R128 integrated LUFS + loudness range, locked to the libebur128 reference coefficients. Per-channel, surround-aware, LFE-excluded.
+- **4× true-peak** - Polyphase Kaiser-windowed-sinc oversampling catches inter-sample peaks that clip a DAC even when the raw sample peak reads under 0 dBFS.
+- **Forensic fingerprints** - Real bit-depth utilisation vs declared, per-window L/R correlation, DC offset, clipping, bit-rot, and an audio SHA-256 that ignores container repacks and tag edits.
+- **Parallel folder scan** - Rayon-parallel scan of a whole library. Sort by any of 15 fields, search by name / format / verdict, rubber-band select, and bulk move / delete or export to CSV / JSON.
+- **DSD + every common format** - WAV / AIFF / CAF, FLAC / ALAC, MP3 / AAC / Vorbis / Opus, Matroska — plus pure-Rust DSD (.dsf / .dff) decoding. No FFmpeg, no external runtime.
+- **100% offline + read-only** - No network, no telemetry, no uploads. Analysis opens every file read-only and throws the samples away when done — it never alters the file you point it at.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
+- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
+- The installer comes in the same 10 languages
+- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+
+Full changelog: https://tapatch.com/tools/wavecheck/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

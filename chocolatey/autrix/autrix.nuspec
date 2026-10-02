@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>autrix</id>
+    <version>1.0.5</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/autrix</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>Autrix</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/autrix/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/autrix-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>auto-clicker autoclicker macro macro-recorder automation mouse keyboard freeware windows</tags>
+    <summary>Auto-clicker and macro recorder: records clicks, keys, holds and drags with millisecond timing and replays them on a hotkey.</summary>
+    <description>Autrix is a clean, capable automation tool for Windows. Record mouse clicks, key presses, delays, text input, mouse moves, and timed hold actions — then replay them on a hotkey from any window. The recorder now captures input exactly: button and key holds, click-and-drags, and keys held down across other actions are all reproduced with millisecond timing — set it up right and it can run a full game parkour sequence on its own. Save multiple profiles, edit actions inline, tune recording precision per-session, customize the always-on-top status popup, and push click rates past 1000 CPS.
+
+## Features
+- **Auto-clicker** - 1000+ CPS at TIME_CRITICAL priority. Configurable interval, L/R/M button, fixed-point or follow-cursor target, optional repeat count, instant Start/Stop hotkey.
+- **Macro recorder** - Captures every mouse move, click, keypress with sub-ms-rounded timing. Append-or-replace toggle keeps long sessions building across multiple takes.
+- **Exact capture** - Records every press AND release — hold a button and drag, or hold a key while turning and jumping, and it replays exactly as you did it, to the millisecond. Set it up right and it can run a full game parkour route. Held inputs auto-release on Stop so nothing sticks.
+- **Recording precision** - Precise / Basic / Least / Custom — pick how much micro-detail to keep. Precise keeps every move + 1 ms timing for frame-tight sequences; Custom exposes min-move distance, drop-wait threshold, and wait-round granularity.
+- **Global hotkeys** - Any keyboard key OR mouse button (L/R/M, M4, M5). Conflicts auto-resolve. Toggle or Hold activation per slot. Works while Autrix is minimized or in the tray.
+- **Hold action** - Press a mouse button down for an exact duration — drag-and-drop, charge shots, hold-to-aim. Uses live cursor at playback so chains cleanly with Move.
+- **Pick coordinates** - Click "+ Move" or "+ L/R/M Click" — then click anywhere on screen (Autrix, browser, game) to drop the action at that exact spot. Right-click or Esc cancels.
+- **Profiles + JSON I/O** - Multiple named profiles with separate action lists, loops, speeds, and hotkeys. Import/export as JSON with size + action caps to keep imports safe.
+- **Status popup** - Borderless translucent always-on-top overlay showing AC / Macro / Recording state. Theme-driven colors, fade-in/out, click to enter customize mode.
+- **System tray** - Optional minimize-to-tray on close. Left-click tray to restore, right-click for Open / Quit menu. Window can be hidden completely while everything keeps running.
+- **Panic stop** - Hold a bound key for a configurable duration (default 2s) to force-kill AC + Macro + Recording + Pick + Bind. Last-resort recovery if a binding goes wrong.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
+- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
+- The installer comes in the same 10 languages
+- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+
+Full changelog: https://tapatch.com/tools/autrix/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

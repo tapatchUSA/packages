@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>optask</id>
+    <version>1.0.2</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/optask</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>OpTask</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/optask/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/optask-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>task-manager system-monitor process cpu memory disk performance freeware windows</tags>
+    <summary>Task manager and system monitor for Windows that ranks what really uses your CPU, memory and disk over time.</summary>
+    <description>OpTask is a modern Windows task manager and system monitor. A virtualised process list groups apps the way Task Manager does, with slim live meters, one-click end-task, priority control, and a shield on anything that needs admin to kill. Performance graphs cover CPU, every logical core, memory, GPU (any vendor), disk, and network. Insights ranks your real long-term resource hogs by integrated CPU-time, peak memory, and disk I/O — not headline percentages — and a roughly 30-check System Health scan reads uptime, storage, thermals, security (Defender, firewall, UAC, Secure Boot, TPM, BitLocker), drivers, and more. A full-screen Disk Scanner finds what's eating your space, and Idle Tasks auto-closes apps you choose once you step away. Five themes plus a custom editor. Zero network, zero telemetry — everything runs locally.
+
+## Features
+- **Smart process list** - Virtualised, grouped Apps / Background / Windows view with live gradient meters, search, end-task, process-tree kill, and priority control. A shield marks every process that needs admin to end.
+- **Performance graphs** - Painted live graphs for CPU, every logical core, memory, GPU (NVIDIA / AMD / Intel), disk throughput, and network up/down — sourced from the same counters Task Manager uses.
+- **Insights** - Ranks your real long-term resource hogs by integrated CPU-time, peak memory, and disk I/O — the honest 'what actually costs me' number, not a momentary spike. Expand any ranking to the full list.
+- **System Health scan** - Around 30 checks across system, memory, storage, thermals &amp; power, network, security (Defender, firewall, UAC, Secure Boot, TPM, BitLocker), hardware, and maintenance — scored and colour-coded.
+- **Disk Scanner** - Full-screen WinDirStat-style scan: pick a drive, drill into folders with size bars, find the biggest files, and right-click to open in Explorer or send to the Recycle Bin. Runs at background I/O priority.
+- **Idle Tasks** - Pick apps to auto-close once the PC sits idle for a time you set. Keeps watching even minimised or in the tray — handy for closing games or browsers when you walk away.
+- **Themes + tray** - TAPATCH, VOID, NEON, EMBER, ARCTIC presets plus a full custom colour editor. Close-to-tray, always-on-top, °F/°C, and per-core or whole-machine CPU all toggle in Settings.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
+- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
+- The installer comes in the same 10 languages
+- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+
+Full changelog: https://tapatch.com/tools/optask/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

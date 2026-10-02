@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>clickmeter</id>
+    <version>1.0.4</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/clickmeter</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>ClickMeter</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/clickmeter/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/clickmeter-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>cps click-counter clicks-per-second mouse gaming click-test freeware windows</tags>
+    <summary>Real-time CPS (clicks per second) tracker using a low-level mouse hook, with peak, average and a history chart.</summary>
+    <description>ClickMeter tracks your click rate in real time with no overhead. It counts every click straight from a low-level mouse hook, so nothing slips past — even rapid or injected bursts that browser-based testers miss. Track left, right, or middle clicks, alone or combined. Live CPS updates instantly, peak and session average stay visible, and a configurable history chart shows anywhere from the last 30 seconds up to your full session. Tiny binary, zero telemetry, entirely local.
+
+## Features
+- **Live CPS** - Clicks per second updates in real time. No delay, no averaging lag — the number you see is the number you're hitting.
+- **Counts every click** - A low-level mouse hook catches each individual click — physical, automated, or injected. Even rapid batched bursts that browser testers miss are counted accurately.
+- **L / R / M tracking** - Count left, right, and middle clicks independently or together. Per-button breakdown shows current CPS and lifetime totals.
+- **Peak + session average** - Tracks your highest CPS burst and rolling session average across every tracked button.
+- **Configurable history** - Bar chart window: full session, last 30s, 60s, 2 min, 5 min, or a custom duration you dial in yourself.
+- **Zero measuring overhead** - The hook runs on its own dedicated thread and never steals keyboard focus, so it doesn't slow down — or interfere with — whatever you're testing.
+- **Theme presets + custom** - Tapatch, Neon, Arctic, Ember, Void, and a full custom theme editor with live preview.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
+- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
+- The installer comes in the same 10 languages
+- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+
+Full changelog: https://tapatch.com/tools/clickmeter/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

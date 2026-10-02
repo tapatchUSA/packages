@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>forevercrypt</id>
+    <version>1.0.2</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/forevercrypt</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>ForeverCrypt</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/forevercrypt/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/forevercrypt-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>encryption encrypted-messaging post-quantum ml-kem chat privacy freeware windows</tags>
+    <summary>Post-quantum (ML-KEM-768) encrypted messages for any chat app: swap public keys once, then paste short encrypted codes anywhere.</summary>
+    <description>ForeverCrypt turns any chat box into an encrypted one. You and a friend swap public keys once, then lock each message to each other and paste the short FC1.… code wherever you already talk. Only the private key on each PC can open a message — not the app, not Discord, not someone who merely downloaded ForeverCrypt. Under the hood it uses ML-KEM-768 (NIST FIPS 203, post-quantum) to exchange a one-time secret to the recipient's key, then seals the text with XChaCha20-Poly1305. Your keypair is generated locally, the private half never leaves your machine, and a built-in Walkthrough explains the whole idea in plain language. 100% offline.
+
+## Features
+- **Swap keys, not secrets** - You each share a public key (a padlock) once — safe to post anywhere. Messages lock to your friend's padlock and only their private key opens them, so sending a key over Discord gives nothing away.
+- **Works in any app** - Type a message, hit Send, and it becomes one short FC1.… code. Paste it into Discord, iMessage, email, a forum — anywhere you already chat. Paste a code back to read it, laid out like a conversation.
+- **Quantum-resistant** - ML-KEM-768 (NIST FIPS 203) exchanges a one-time secret; XChaCha20-Poly1305 seals the words. Designed to stay unreadable even against a future quantum computer.
+- **Your key, always random** - Each install generates its own keypair from the OS secure RNG, and a Randomize button makes a fresh one anytime. Two copies on one PC get two different identities — never a shared fingerprint.
+- **The app being public is fine** - Security doesn't depend on the program being secret — everyone has the same ForeverCrypt. The only secret is your private key, and it never leaves your PC.
+- **Plain-language walkthrough** - A built-in 7-step guide explains public vs. private keys, why Discord can't reverse a code, and how to check it's really your friend — no crypto background needed.
+- **100% offline** - No accounts, no servers, no telemetry. ForeverCrypt never connects to anything — it just turns text into codes and back, right on your machine.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
+- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
+- The installer comes in the same 10 languages
+- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+
+Full changelog: https://tapatch.com/tools/forevercrypt/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

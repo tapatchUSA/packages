@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>flowdesk</id>
+    <version>1.0.2</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/flowdesk</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>FlowDesk</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/flowdesk/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/flowdesk-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>launcher app-launcher scheduler automation startup productivity freeware windows</tags>
+    <summary>App launcher and scheduler: pin apps, scripts, folders and URLs into groups and run them on a schedule.</summary>
+    <description>FlowDesk is a unified task launcher and scheduler. Pin apps, scripts, folders, and URLs, organise them into categories, and schedule anything to run at a time or interval — with optional UAC elevation. Import and export your setup as JSON. Everything in one tight interface, nothing in the system tray you didn't ask for.
+
+## Features
+- **App launcher** - Pin apps, scripts, folders, and URLs for one-click launch. Search through everything instantly as your list grows.
+- **Scheduler** - Schedule any item to run at a specific time, on an interval, or at startup. Set it once and forget it.
+- **UAC elevation** - Run any launcher item as administrator with built-in elevation support.
+- **Categories** - Organise launchers into labelled groups. Collapse, reorder, and customise to match how you actually work.
+- **Import / Export** - Save your entire launcher setup to a JSON file. Restore it on a new machine or share it with your team.
+- **App search** - Search installed apps directly from FlowDesk without opening the Start menu or typing in Explorer.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
+- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
+- The installer comes in the same 10 languages
+- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+
+Full changelog: https://tapatch.com/tools/flowdesk/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

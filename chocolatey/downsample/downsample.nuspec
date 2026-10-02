@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>downsample</id>
+    <version>1.0.2</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/downsample</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>DownSample</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/downsample/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/downsample-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>video-compressor audio video converter gpu encoder compress freeware windows</tags>
+    <summary>Batch video and audio shrinker that encodes on your GPU with the codecs Windows already has. No FFmpeg, no uploads.</summary>
+    <description>DownSample shrinks videos and audio to save disk space — without FFmpeg and without uploading anything. It drives Windows Media Foundation — the OS's own licensed H.264 / AAC — and encodes on your GPU's hardware blocks (NVIDIA, AMD, or Intel iGPU) via Direct3D 11. Drop in files or a whole folder, pick a target height (4K down to 240p or custom), aspect ratio, quality, and audio bitrate, then shrink the entire queue in parallel across every CPU and GPU you have. Preview your settings on a single file first, keep or replace originals, and add a name suffix. No bundled codec, no network, no telemetry — your media never leaves the machine.
+
+## Features
+- **GPU hardware encode** - Encodes on your GPU's dedicated video block via Windows Media Foundation + Direct3D 11 — NVIDIA, AMD, or Intel iGPU. Run on GPU, CPU, or both together.
+- **No FFmpeg, no upload** - Uses the H.264 / AAC codecs Windows already licenses — nothing bundled, nothing installed, nothing sent anywhere. Fully offline.
+- **Resolution + aspect** - Downscale by height — 4K, 2K, 1080p, 720p, 480p, 360p, 240p, or custom — keeping aspect ratio or stretching to 16:9, 4:3, 1:1, 21:9, or your own.
+- **Quality + audio control** - High / Balanced / Small / Tiny quality presets and audio bitrate from Auto down to off — dial the size-versus-quality trade-off exactly.
+- **Parallel batch queue** - Drop a whole folder (subfolders included) and shrink every file at once across all your CPU cores and GPUs. Sort by added, name, size, or space saved.
+- **Preview before committing** - Try your settings on one file first and see the result before running the whole batch. Keep originals or replace them once a smaller copy is made.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
+- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
+- The installer comes in the same 10 languages
+- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+
+Full changelog: https://tapatch.com/tools/downsample/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
