@@ -10,11 +10,13 @@
     <projectUrl>https://tapatch.com/tools/netpulse/</projectUrl>
     <iconUrl>https://tapatch.com/assets/netpulse-icon.png</iconUrl>
     <copyright>(c) 2026 TAPATCH</copyright>
-    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>network-monitor bandwidth firewall packet-capture connections privacy freeware windows</tags>
     <summary>Network monitor for Windows: see which app uses your internet, packets explained in plain English, and a one-click firewall per app.</summary>
-    <description>NetPulse shows exactly which program is using your internet, how much, and where it goes — from Windows' own kernel network events, so the numbers per app are exact. Keep history as long as you like, block any app in one click, check your network for hijacking and open doors, and capture packets with a plain-English explanation of each one. Everything is measured and stored on your PC: no account, no cloud, no telemetry.
+    <description>**License: proprietary freeware.** NetPulse is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+NetPulse shows exactly which program is using your internet, how much, and where it goes — from Windows' own kernel network events, so the numbers per app are exact. Keep history as long as you like, block any app in one click, check your network for hijacking and open doors, and capture packets with a plain-English explanation of each one. Everything is measured and stored on your PC: no account, no cloud, no telemetry.
 
 ## Features
 - **Exact traffic per app** - Real bytes for every program and Windows service, the websites each one looks up, and a live graph per app — straight from the kernel, not estimated.
@@ -26,7 +28,7 @@
 - **Stays on your PC** - No account, no cloud, no telemetry. History, alerts and settings live only on this machine.
 
 ## Notes
-- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
 - Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.

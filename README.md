@@ -1,7 +1,7 @@
 # TAPATCH packages
 
 Package-manager manifests for the free Windows tools from [TAPATCH](https://tapatch.com).
-Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
 
 ## Scoop
 

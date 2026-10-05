@@ -10,11 +10,13 @@
     <projectUrl>https://tapatch.com/tools/linkmass/</projectUrl>
     <iconUrl>https://tapatch.com/assets/linkmass-icon.png</iconUrl>
     <copyright>(c) 2026 TAPATCH</copyright>
-    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>hardlink hard-links duplicates duplicate-finder disk-space storage ntfs freeware windows</tags>
     <summary>Hard link manager for Windows: find duplicate files and turn them into hard links to free disk space, no command line.</summary>
-    <description>LinkMass is the hard link manager Windows never built in. Create links, hunt duplicates, scan folder trees, and break links safely — all from a polished, theme-able GUI. No command line required. Works entirely locally with no network access.
+    <description>**License: proprietary freeware.** LinkMass is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+LinkMass is the hard link manager Windows never built in. Create links, hunt duplicates, scan folder trees, and break links safely — all from a polished, theme-able GUI. No command line required. Works entirely locally with no network access.
 
 ## Features
 - **Create hard links** - Link files to new locations with zero extra disk usage. Single file, flat folder, or full recursive mirror — your choice.
@@ -25,7 +27,7 @@
 - **Dry-run mode** - Runs the full operation logic but touches nothing on disk. Every planned action is logged before you commit.
 
 ## Notes
-- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
 - Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.

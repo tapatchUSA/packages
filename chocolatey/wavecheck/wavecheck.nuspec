@@ -10,11 +10,13 @@
     <projectUrl>https://tapatch.com/tools/wavecheck/</projectUrl>
     <iconUrl>https://tapatch.com/assets/wavecheck-icon.png</iconUrl>
     <copyright>(c) 2026 TAPATCH</copyright>
-    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>audio flac lossless spectrogram audio-analyzer fake-lossless transcode freeware windows</tags>
     <summary>Forensic audio quality analyzer: tells you if a "lossless" file is a genuine master or an upscaled fake. No FFmpeg, fully offline.</summary>
-    <description>WaveCheck is a forensic audio quality analyzer for Windows. It decodes a file in pure Rust (no FFmpeg), measures it to broadcast spec, and tells you at a glance whether it's a genuine master or an upscaled fake. Spectral-cutoff-vs-Nyquist detection exposes MP3s renamed to FLAC; ITU-R BS.1770-4 / EBU R128 loudness, 4× oversampled true-peak, bit-depth utilisation, stereo correlation, and an STFT spectrogram fill in the full forensic picture. Scan a whole library in parallel, sort and search the results, then triage with rubber-band select and bulk move / delete. Everything runs 100% offline — your audio never leaves the machine, and analysis never modifies a file.
+    <description>**License: proprietary freeware.** WaveCheck is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+WaveCheck is a forensic audio quality analyzer for Windows. It decodes a file in pure Rust (no FFmpeg), measures it to broadcast spec, and tells you at a glance whether it's a genuine master or an upscaled fake. Spectral-cutoff-vs-Nyquist detection exposes MP3s renamed to FLAC; ITU-R BS.1770-4 / EBU R128 loudness, 4× oversampled true-peak, bit-depth utilisation, stereo correlation, and an STFT spectrogram fill in the full forensic picture. Scan a whole library in parallel, sort and search the results, then triage with rubber-band select and bulk move / delete. Everything runs 100% offline — your audio never leaves the machine, and analysis never modifies a file.
 
 ## Features
 - **Fake-lossless detector** - Maps the real spectral cutoff against Nyquist. A FLAC that dies at 16 kHz is an upsampled MP3 — flagged with a 'lossless masquerade' note. Catches the renames every fake library is full of.
@@ -27,7 +29,7 @@
 - **100% offline + read-only** - No network, no telemetry, no uploads. Analysis opens every file read-only and throws the samples away when done — it never alters the file you point it at.
 
 ## Notes
-- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
 - Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.

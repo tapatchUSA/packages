@@ -10,11 +10,13 @@
     <projectUrl>https://tapatch.com/tools/forevercrypt/</projectUrl>
     <iconUrl>https://tapatch.com/assets/forevercrypt-icon.png</iconUrl>
     <copyright>(c) 2026 TAPATCH</copyright>
-    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>encryption encrypted-messaging post-quantum ml-kem chat privacy freeware windows</tags>
     <summary>Post-quantum (ML-KEM-768) encrypted messages for any chat app: swap public keys once, then paste short encrypted codes anywhere.</summary>
-    <description>ForeverCrypt turns any chat box into an encrypted one. You and a friend swap public keys once, then lock each message to each other and paste the short FC1.… code wherever you already talk. Only the private key on each PC can open a message — not the app, not Discord, not someone who merely downloaded ForeverCrypt. Under the hood it uses ML-KEM-768 (NIST FIPS 203, post-quantum) to exchange a one-time secret to the recipient's key, then seals the text with XChaCha20-Poly1305. Your keypair is generated locally, the private half never leaves your machine, and a built-in Walkthrough explains the whole idea in plain language. 100% offline.
+    <description>**License: proprietary freeware.** ForeverCrypt is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+ForeverCrypt turns any chat box into an encrypted one. You and a friend swap public keys once, then lock each message to each other and paste the short FC1.… code wherever you already talk. Only the private key on each PC can open a message — not the app, not Discord, not someone who merely downloaded ForeverCrypt. Under the hood it uses ML-KEM-768 (NIST FIPS 203, post-quantum) to exchange a one-time secret to the recipient's key, then seals the text with XChaCha20-Poly1305. Your keypair is generated locally, the private half never leaves your machine, and a built-in Walkthrough explains the whole idea in plain language. 100% offline.
 
 ## Features
 - **Swap keys, not secrets** - You each share a public key (a padlock) once — safe to post anywhere. Messages lock to your friend's padlock and only their private key opens them, so sending a key over Discord gives nothing away.
@@ -26,7 +28,7 @@
 - **100% offline** - No accounts, no servers, no telemetry. ForeverCrypt never connects to anything — it just turns text into codes and back, right on your machine.
 
 ## Notes
-- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
 - Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.

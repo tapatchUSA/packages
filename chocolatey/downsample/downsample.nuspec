@@ -10,11 +10,13 @@
     <projectUrl>https://tapatch.com/tools/downsample/</projectUrl>
     <iconUrl>https://tapatch.com/assets/downsample-icon.png</iconUrl>
     <copyright>(c) 2026 TAPATCH</copyright>
-    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>video-compressor audio video converter gpu encoder compress freeware windows</tags>
     <summary>Batch video and audio shrinker that encodes on your GPU with the codecs Windows already has. No FFmpeg, no uploads.</summary>
-    <description>DownSample shrinks videos and audio to save disk space — without FFmpeg and without uploading anything. It drives Windows Media Foundation — the OS's own licensed H.264 / AAC — and encodes on your GPU's hardware blocks (NVIDIA, AMD, or Intel iGPU) via Direct3D 11. Drop in files or a whole folder, pick a target height (4K down to 240p or custom), aspect ratio, quality, and audio bitrate, then shrink the entire queue in parallel across every CPU and GPU you have. Preview your settings on a single file first, keep or replace originals, and add a name suffix. No bundled codec, no network, no telemetry — your media never leaves the machine.
+    <description>**License: proprietary freeware.** DownSample is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+DownSample shrinks videos and audio to save disk space — without FFmpeg and without uploading anything. It drives Windows Media Foundation — the OS's own licensed H.264 / AAC — and encodes on your GPU's hardware blocks (NVIDIA, AMD, or Intel iGPU) via Direct3D 11. Drop in files or a whole folder, pick a target height (4K down to 240p or custom), aspect ratio, quality, and audio bitrate, then shrink the entire queue in parallel across every CPU and GPU you have. Preview your settings on a single file first, keep or replace originals, and add a name suffix. No bundled codec, no network, no telemetry — your media never leaves the machine.
 
 ## Features
 - **GPU hardware encode** - Encodes on your GPU's dedicated video block via Windows Media Foundation + Direct3D 11 — NVIDIA, AMD, or Intel iGPU. Run on GPU, CPU, or both together.
@@ -25,7 +27,7 @@
 - **Preview before committing** - Try your settings on one file first and see the result before running the whole batch. Keep originals or replace them once a smaller copy is made.
 
 ## Notes
-- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
 - Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.

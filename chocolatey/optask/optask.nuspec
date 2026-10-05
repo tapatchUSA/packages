@@ -10,11 +10,13 @@
     <projectUrl>https://tapatch.com/tools/optask/</projectUrl>
     <iconUrl>https://tapatch.com/assets/optask-icon.png</iconUrl>
     <copyright>(c) 2026 TAPATCH</copyright>
-    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>task-manager system-monitor process cpu memory disk performance freeware windows</tags>
     <summary>Task manager and system monitor for Windows that ranks what really uses your CPU, memory and disk over time.</summary>
-    <description>OpTask is a modern Windows task manager and system monitor. A virtualised process list groups apps the way Task Manager does, with slim live meters, one-click end-task, priority control, and a shield on anything that needs admin to kill. Performance graphs cover CPU, every logical core, memory, GPU (any vendor), disk, and network. Insights ranks your real long-term resource hogs by integrated CPU-time, peak memory, and disk I/O — not headline percentages — and a roughly 30-check System Health scan reads uptime, storage, thermals, security (Defender, firewall, UAC, Secure Boot, TPM, BitLocker), drivers, and more. A full-screen Disk Scanner finds what's eating your space, and Idle Tasks auto-closes apps you choose once you step away. Five themes plus a custom editor. Zero network, zero telemetry — everything runs locally.
+    <description>**License: proprietary freeware.** OpTask is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+OpTask is a modern Windows task manager and system monitor. A virtualised process list groups apps the way Task Manager does, with slim live meters, one-click end-task, priority control, and a shield on anything that needs admin to kill. Performance graphs cover CPU, every logical core, memory, GPU (any vendor), disk, and network. Insights ranks your real long-term resource hogs by integrated CPU-time, peak memory, and disk I/O — not headline percentages — and a roughly 30-check System Health scan reads uptime, storage, thermals, security (Defender, firewall, UAC, Secure Boot, TPM, BitLocker), drivers, and more. A full-screen Disk Scanner finds what's eating your space, and Idle Tasks auto-closes apps you choose once you step away. Five themes plus a custom editor. Zero network, zero telemetry — everything runs locally.
 
 ## Features
 - **Smart process list** - Virtualised, grouped Apps / Background / Windows view with live gradient meters, search, end-task, process-tree kill, and priority control. A shield marks every process that needs admin to end.
@@ -26,7 +28,7 @@
 - **Themes + tray** - TAPATCH, VOID, NEON, EMBER, ARCTIC presets plus a full custom colour editor. Close-to-tray, always-on-top, °F/°C, and per-core or whole-machine CPU all toggle in Settings.
 
 ## Notes
-- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
 - Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.

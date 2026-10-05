@@ -10,11 +10,13 @@
     <projectUrl>https://tapatch.com/tools/flowdesk/</projectUrl>
     <iconUrl>https://tapatch.com/assets/flowdesk-icon.png</iconUrl>
     <copyright>(c) 2026 TAPATCH</copyright>
-    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>launcher app-launcher scheduler automation startup productivity freeware windows</tags>
     <summary>App launcher and scheduler: pin apps, scripts, folders and URLs into groups and run them on a schedule.</summary>
-    <description>FlowDesk is a unified task launcher and scheduler. Pin apps, scripts, folders, and URLs, organise them into categories, and schedule anything to run at a time or interval — with optional UAC elevation. Import and export your setup as JSON. Everything in one tight interface, nothing in the system tray you didn't ask for.
+    <description>**License: proprietary freeware.** FlowDesk is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+FlowDesk is a unified task launcher and scheduler. Pin apps, scripts, folders, and URLs, organise them into categories, and schedule anything to run at a time or interval — with optional UAC elevation. Import and export your setup as JSON. Everything in one tight interface, nothing in the system tray you didn't ask for.
 
 ## Features
 - **App launcher** - Pin apps, scripts, folders, and URLs for one-click launch. Search through everything instantly as your list grows.
@@ -25,7 +27,7 @@
 - **App search** - Search installed apps directly from FlowDesk without opening the Start menu or typing in Explorer.
 
 ## Notes
-- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
 - Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.

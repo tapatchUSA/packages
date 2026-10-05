@@ -10,11 +10,13 @@
     <projectUrl>https://tapatch.com/tools/autrix/</projectUrl>
     <iconUrl>https://tapatch.com/assets/autrix-icon.png</iconUrl>
     <copyright>(c) 2026 TAPATCH</copyright>
-    <licenseUrl>https://tapatch.com/terms/</licenseUrl>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>auto-clicker autoclicker macro macro-recorder automation mouse keyboard freeware windows</tags>
     <summary>Auto-clicker and macro recorder: records clicks, keys, holds and drags with millisecond timing and replays them on a hotkey.</summary>
-    <description>Autrix is a clean, capable automation tool for Windows. Record mouse clicks, key presses, delays, text input, mouse moves, and timed hold actions — then replay them on a hotkey from any window. The recorder now captures input exactly: button and key holds, click-and-drags, and keys held down across other actions are all reproduced with millisecond timing — set it up right and it can run a full game parkour sequence on its own. Save multiple profiles, edit actions inline, tune recording precision per-session, customize the always-on-top status popup, and push click rates past 1000 CPS.
+    <description>**License: proprietary freeware.** Autrix is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+Autrix is a clean, capable automation tool for Windows. Record mouse clicks, key presses, delays, text input, mouse moves, and timed hold actions — then replay them on a hotkey from any window. The recorder now captures input exactly: button and key holds, click-and-drags, and keys held down across other actions are all reproduced with millisecond timing — set it up right and it can run a full game parkour sequence on its own. Save multiple profiles, edit actions inline, tune recording precision per-session, customize the always-on-top status popup, and push click rates past 1000 CPS.
 
 ## Features
 - **Auto-clicker** - 1000+ CPS at TIME_CRITICAL priority. Configurable interval, L/R/M button, fixed-point or follow-cursor target, optional repeat count, instant Start/Stop hotkey.
@@ -30,7 +32,7 @@
 - **Panic stop** - Hold a bound key for a configurable duration (default 2s) to force-kill AC + Macro + Recording + Pick + Bind. Last-resort recovery if a binding goes wrong.
 
 ## Notes
-- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/).
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
 - Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
