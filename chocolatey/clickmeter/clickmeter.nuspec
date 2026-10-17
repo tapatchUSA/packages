@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clickmeter</id>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/clickmeter</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>ClickMeter</title>
@@ -33,12 +33,8 @@ ClickMeter tracks your click rate in real time with no overhead. It counts every
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Cleaner new look: icon sidebar, big live CPS readout, stat cards and a calmer chart
-- The click areas line up exactly with the buttons (they were about 30 pixels too high)
-- No more missed clicks when clicking very fast
-- The chart stays smooth in long sessions
-- Seconds are counted exactly, including after the window was minimized
-- Settings save right away, the Small window size fits, and narrow windows get a compact layout
+    <releaseNotes>- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
+- Nothing else changed
 
 Full changelog: https://tapatch.com/tools/clickmeter/</releaseNotes>
   </metadata>

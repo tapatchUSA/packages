@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tahub</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/tahub</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>TA Hub</title>
@@ -32,11 +32,8 @@ TA Hub lists every TAPATCH tool with its screenshots, videos, release notes and 
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- First release
-- Install, update, open and uninstall every TAPATCH tool, older versions included
-- Update alerts from the tray; checks tapatch.com every 2 hours at most
-- Every installer is checked against TAPATCH's signature before it runs
-- The site's live stats, in 10 languages
+    <releaseNotes>- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
+- Nothing else changed
 
 Full changelog: https://tapatch.com/tools/tahub/</releaseNotes>
   </metadata>
