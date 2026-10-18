@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>flowdesk</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/flowdesk</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>FlowDesk</title>
@@ -32,8 +32,10 @@ FlowDesk is a unified task launcher and scheduler. Pin apps, scripts, folders, a
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
-- Nothing else changed
+    <releaseNotes>- The admin helper only takes requests from FlowDesk itself, so other programs can't use it to run things as administrator
+- Stopping a flow only closes what that flow started, not every program with the same name (like all of Chrome)
+- Stopping one admin flow no longer stops your other admin flows
+- Imported flows get their own IDs, so starting or stopping one no longer affects another
 
 Full changelog: https://tapatch.com/tools/flowdesk/</releaseNotes>
   </metadata>

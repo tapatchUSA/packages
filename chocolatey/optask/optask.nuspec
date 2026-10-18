@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>optask</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/optask</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>OpTask</title>
@@ -33,8 +33,11 @@ OpTask is a modern Windows task manager and system monitor. A virtualised proces
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
-- Nothing else changed
+    <releaseNotes>- Idle Tasks now also work while OpTask sits in the tray
+- "Open file location" now works for apps in folders with spaces, like Program Files
+- Deleting on a drive without a Recycle Bin (USB stick, network folder) now warns first that it's permanent
+- "End process tree" can no longer end an unrelated program that reused an old process number
+- After deleting in the disk scanner, the folders above it show their new size
 
 Full changelog: https://tapatch.com/tools/optask/</releaseNotes>
   </metadata>
