@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>callback</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/callback</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>Callback</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/callback/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/callback-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>game-clipper clips screen-recorder instant-replay montage video-editor captions gaming freeware windows</tags>
+    <summary>Game clipper that hears laughing, screaming and cheering and saves the clip by itself, then makes an editable montage with word-by-word captions.</summary>
+    <description>**License: proprietary freeware.** Callback is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+Callback records your screen in the background, keeping only the last few seconds in memory, and listens to your mic and the game. When it hears a reaction (laughing, screaming, cheering, crying or yelling), it saves a clip of that moment: the seconds before it and the seconds after. Press Alt+F9 to save one yourself. Clips keep your mic and the game on separate sound tracks, plus a mix of both. Drop in your clips or any other recordings (OBS files with separate mic tracks included) and Callback finds the best moments and puts them together as a montage you can edit: trim, split, speed, volume, transitions, color, crop, zoom and position, text, word-by-word captions, music, and wide, tall or square video. If you record two screens at once, it shows the one with the game. Everything runs on your PC: recording uses your graphics card's video encoder, the sound recognition runs offline, and nothing is uploaded.
+
+## Features
+- **Clips itself** - Callback hears laughing, screaming, cheering, crying and yelling, on your mic and in the game, and saves the moment. Turn each mood on or off and choose how often it clips.
+- **The seconds before, too** - Your screen is kept in memory, never on disk, so every clip starts before the moment happened. Press Alt+F9 to save one yourself; press it twice for a longer one.
+- **No lag in games** - Recording runs on your graphics card's video encoder (NVIDIA, AMD or Intel), at any frame rate up to 240 fps, on one screen or all of them.
+- **Separate sound tracks** - With your mic and the game both on, each clip has three sound tracks: both mixed (what players and Discord play), just your mic and just the game. Auto captions can follow your voice alone, and other video editors show each track separately.
+- **Montages from any video** - Drop in your clips or hours of recordings. Callback listens through them, picks the best moments and lines them up, ready to export.
+- **A real editor** - Trim, split, speed up or slow down, change the volume, add transitions between clips and color looks, move, zoom, turn and crop the picture, add text and music, and export wide, tall (TikTok, Shorts, Reels) or square.
+- **Word-by-word captions** - Auto captions in the style of popular videos, with the word being said lit up. Pick the font, colors and look on a live sample, and which sound they follow: your mic, the game, or any tracks you tick. Speech recognition runs on your PC, in many languages.
+- **Two-screen recordings** - Recorded both monitors at once? Callback finds the screen with the game and shows just that one. Switch to the other screen or show both with one click.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
+- Windows 10/11, 64-bit. Connects to the internet only to download the speech model for auto captions, once, from huggingface.co; recordings never leave the PC. No ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- First release
+- Saves clips by itself when it hears laughing, screaming, cheering, crying or yelling
+- Records with your graphics card's encoder, any frame rate up to 240 fps, one screen or all
+- Clips keep your mic and the game on separate sound tracks, plus a mix of both
+- Montages from your clips or any videos, with an editor: trim, split, speed, volume, transitions, color, crop, zoom, text and music
+- Word-by-word auto captions, made on your PC
+- 10 languages, 4 themes
+
+Full changelog: https://tapatch.com/tools/callback/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
