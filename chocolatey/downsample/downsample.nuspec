@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>downsample</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/downsample</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>DownSample</title>
@@ -32,9 +32,10 @@ DownSample shrinks videos and audio to save disk space — without FFmpeg and wi
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Replace originals: the original is only removed once its smaller copy is safely in place
-- Two files that end up with the same name (movie.mkv and movie.avi) no longer overwrite each other: the second one becomes "movie (2).mp4"
-- Never writes over a file that's already there
+    <releaseNotes>- New Theme setting: TAPATCH, Void, Neon, Ember, or Custom with your own colors
+- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
+- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
+- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
 
 Full changelog: https://tapatch.com/tools/downsample/</releaseNotes>
   </metadata>

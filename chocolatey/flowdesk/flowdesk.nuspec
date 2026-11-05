@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>flowdesk</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/flowdesk</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>FlowDesk</title>
@@ -32,10 +32,9 @@ FlowDesk is a unified task launcher and scheduler. Pin apps, scripts, folders, a
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- The admin helper only takes requests from FlowDesk itself, so other programs can't use it to run things as administrator
-- Stopping a flow only closes what that flow started, not every program with the same name (like all of Chrome)
-- Stopping one admin flow no longer stops your other admin flows
-- Imported flows get their own IDs, so starting or stopping one no longer affects another
+    <releaseNotes>- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
+- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
+- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
 
 Full changelog: https://tapatch.com/tools/flowdesk/</releaseNotes>
   </metadata>

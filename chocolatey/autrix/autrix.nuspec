@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>autrix</id>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/autrix</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>Autrix</title>
@@ -37,8 +37,11 @@ Autrix is a clean, capable automation tool for Windows. Record mouse clicks, key
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
-- Nothing else changed
+    <releaseNotes>- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
+- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
+- Clicks, drags and holds recorded or picked on a monitor left of or above the main one now replay in the right place, not at the cursor (the fixed-position auto clicker too)
+- Typing in a text box no longer rewrites the whole settings file on every key
+- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
 
 Full changelog: https://tapatch.com/tools/autrix/</releaseNotes>
   </metadata>

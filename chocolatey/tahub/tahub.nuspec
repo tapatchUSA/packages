@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tahub</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/tahub</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>TA Hub</title>
@@ -32,8 +32,10 @@ TA Hub lists every TAPATCH tool with its screenshots, videos, release notes and 
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
-- Nothing else changed
+    <releaseNotes>- New Custom theme: pick your own accent, background, panel and text colors
+- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
+- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
+- The installer's license text matches the current Terms
 
 Full changelog: https://tapatch.com/tools/tahub/</releaseNotes>
   </metadata>

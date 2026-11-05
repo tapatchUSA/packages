@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>optask</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/optask</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>OpTask</title>
@@ -33,11 +33,9 @@ OpTask is a modern Windows task manager and system monitor. A virtualised proces
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Idle Tasks now also work while OpTask sits in the tray
-- "Open file location" now works for apps in folders with spaces, like Program Files
-- Deleting on a drive without a Recycle Bin (USB stick, network folder) now warns first that it's permanent
-- "End process tree" can no longer end an unrelated program that reused an old process number
-- After deleting in the disk scanner, the folders above it show their new size
+    <releaseNotes>- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
+- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
+- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
 
 Full changelog: https://tapatch.com/tools/optask/</releaseNotes>
   </metadata>

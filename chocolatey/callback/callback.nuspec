@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>callback</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/callback</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>Callback</title>
@@ -34,13 +34,10 @@ Callback records your screen in the background, keeping only the last few second
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- First release
-- Saves clips by itself when it hears laughing, screaming, cheering, crying or yelling
-- Records with your graphics card's encoder, any frame rate up to 240 fps, one screen or all
-- Clips keep your mic and the game on separate sound tracks, plus a mix of both
-- Montages from your clips or any videos, with an editor: trim, split, speed, volume, transitions, color, crop, zoom, text and music
-- Word-by-word auto captions, made on your PC
-- 10 languages, 4 themes
+    <releaseNotes>- New Custom theme: pick your own accent, background, panel and text colors
+- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
+- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
+- The installer's license text matches the current Terms
 
 Full changelog: https://tapatch.com/tools/callback/</releaseNotes>
   </metadata>
