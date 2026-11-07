@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>callback</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/callback</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>Callback</title>
@@ -34,10 +34,7 @@ Callback records your screen in the background, keeping only the last few second
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- New Custom theme: pick your own accent, background, panel and text colors
-- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
-- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
-- The installer's license text matches the current Terms
+    <releaseNotes>- The English text now uses American spelling everywhere
 
 Full changelog: https://tapatch.com/tools/callback/</releaseNotes>
   </metadata>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>downsample</id>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/downsample</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>DownSample</title>
@@ -32,10 +32,7 @@ DownSample shrinks videos and audio to save disk space — without FFmpeg and wi
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- New Theme setting: TAPATCH, Void, Neon, Ember, or Custom with your own colors
-- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
-- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
-- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
+    <releaseNotes>- The dot shown while a file is shrinking no longer appears as an empty box
 
 Full changelog: https://tapatch.com/tools/downsample/</releaseNotes>
   </metadata>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clickmeter</id>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/clickmeter</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>ClickMeter</title>
@@ -33,12 +33,7 @@ ClickMeter tracks your click rate in real time with no overhead. It counts every
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
-- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
-- No longer crashes when opened within 35 seconds of Windows starting
-- Much lighter on the PC: it redraws 4 times a second while no one is clicking instead of 125 (a click wakes it right away)
-- Custom colors no longer come back one shade darker, and the donation pop-up is centered
-- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
+    <releaseNotes>- The X on the donate pop-up's NOT YET button no longer shows as an empty box
 
 Full changelog: https://tapatch.com/tools/clickmeter/</releaseNotes>
   </metadata>

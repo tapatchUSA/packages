@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>flowdesk</id>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/flowdesk</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>FlowDesk</title>
@@ -32,9 +32,8 @@ FlowDesk is a unified task launcher and scheduler. Pin apps, scripts, folders, a
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
-- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
-- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
+    <releaseNotes>- Arrows, check marks and other symbols no longer show as empty boxes
+- The English text now uses American spelling everywhere
 
 Full changelog: https://tapatch.com/tools/flowdesk/</releaseNotes>
   </metadata>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>linkmass</id>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/linkmass</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>LinkMass</title>
@@ -32,14 +32,7 @@ LinkMass is the hard link manager Windows never built in. Create links, hunt dup
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
-- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
-- "Overwrite if file already exists" makes the new link first and only then replaces the old file, so a failed link can't lose a file; files already linked are left alone
-- Unlink never leaves a file missing, and the scanner skips files that changed since the scan
-- Linking into a folder inside the source is refused with a clear message, and folder shortcuts are skipped, so it can't loop forever
-- The review step no longer freezes on big folders, and the Small / Medium / Large start-up sizes stick
-- Settings are saved safely (a crash mid-save can't wipe them), and it no longer redraws while idle
-- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
+    <releaseNotes>- Arrows, check marks and other symbols no longer show as empty boxes
 
 Full changelog: https://tapatch.com/tools/linkmass/</releaseNotes>
   </metadata>
