@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wavecheck</id>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/wavecheck</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>WaveCheck</title>
@@ -34,9 +34,10 @@ WaveCheck is a forensic audio quality analyzer for Windows. It decodes a file in
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
-- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
-- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
+    <releaseNotes>- A lossless file made from an MP3 or AAC now gets the verdict "Fake lossless" and loses 30 points, so it ranks below an honest MP3
+- A hi-res file upsampled from CD quality now gets the verdict "Fake hi-res" and loses 25 points
+- Folder scans count every fake in the "fake/bad" total, and CSV and JSON exports have fake_lossless and fake_hires columns
+- The zoomed spectrogram shows time in seconds and frequency in kHz with the cutoff line, and the arrows in the chart notes no longer show as boxes
 
 Full changelog: https://tapatch.com/tools/wavecheck/</releaseNotes>
   </metadata>
