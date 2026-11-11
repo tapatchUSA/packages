@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clickmeter</id>
-    <version>1.0.8</version>
+    <version>1.0.9</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/clickmeter</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>ClickMeter</title>
@@ -33,7 +33,8 @@ ClickMeter tracks your click rate in real time with no overhead. It counts every
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- The X on the donate pop-up's NOT YET button no longer shows as an empty box
+    <releaseNotes>- Now opens in virtual machines, Remote Desktop and on PCs without a graphics driver: it switches to Direct3D 12 when OpenGL doesn't work
+- If the window still can't open, a message says why instead of the app closing without a word
 
 Full changelog: https://tapatch.com/tools/clickmeter/</releaseNotes>
   </metadata>
