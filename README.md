@@ -31,5 +31,5 @@ The Chocolatey package sources live in [`chocolatey/`](chocolatey/).
 | [DownSample](https://tapatch.com/tools/downsample/) | 1.0.7 | `scoop install tapatch/downsample` | `choco install downsample` | `winget install TAPATCH.DownSample` |
 | [ForeverCrypt](https://tapatch.com/tools/forevercrypt/) | 1.0.6 | `scoop install tapatch/forevercrypt` | `choco install forevercrypt` | `winget install TAPATCH.ForeverCrypt` |
 | [NetPulse](https://tapatch.com/tools/netpulse/) | 1.0.7 | `scoop install tapatch/netpulse` | `choco install netpulse` | `winget install TAPATCH.NetPulse` |
-| [TA Hub](https://tapatch.com/tools/tahub/) | 1.0.3 | `scoop install tapatch/tahub` | `choco install tahub` | `winget install TAPATCH.TAHub` |
+| [TA Hub](https://tapatch.com/tools/tahub/) | 1.0.4 | `scoop install tapatch/tahub` | `choco install tahub` | `winget install TAPATCH.TAHub` |
 | [Callback](https://tapatch.com/tools/callback/) | 1.0.3 | `scoop install tapatch/callback` | `choco install callback` | `winget install TAPATCH.Callback` |
