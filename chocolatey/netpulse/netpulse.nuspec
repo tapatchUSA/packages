@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>netpulse</id>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/netpulse</packageSourceUrl>
     <owners>TAPATCH</owners>
     <title>NetPulse</title>
@@ -33,8 +33,9 @@ NetPulse shows exactly which program is using your internet, how much, and where
 - Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
 - The Terms of Service are shown on first launch and must be accepted to use the app.
 </description>
-    <releaseNotes>- Now opens in virtual machines, Remote Desktop and on PCs without a graphics driver: it switches to Direct3D 12 when OpenGL doesn't work
-- If the window still can't open, a message says why instead of the app closing without a word
+    <releaseNotes>- The text at the top of the Firewall and Security pages no longer runs under the button on the right in smaller windows
+- Long values on the Security page now end in … instead of spilling out of the row; hover to see the full text
+- The Where column under Connections is wider, and long country names end in … instead of being cut off mid-letter
 
 Full changelog: https://tapatch.com/tools/netpulse/</releaseNotes>
   </metadata>
