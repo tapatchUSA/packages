@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>deadcenter</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/tapatchUSA/packages/tree/main/chocolatey/deadcenter</packageSourceUrl>
+    <owners>TAPATCH</owners>
+    <title>DeadCenter</title>
+    <authors>TAPATCH</authors>
+    <projectUrl>https://tapatch.com/tools/deadcenter/</projectUrl>
+    <iconUrl>https://tapatch.com/assets/deadcenter-icon.png</iconUrl>
+    <copyright>(c) 2026 TAPATCH</copyright>
+    <licenseUrl>https://tapatch.com/terms/software/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>crosshair crosshair-overlay custom-crosshair overlay gaming fps freeware windows</tags>
+    <summary>Custom crosshair overlay for any game: 14 shapes or draw your own pixel by pixel, an emoji or picture in the middle, hidden from streams. Never touches the game.</summary>
+    <description>**License: proprietary freeware.** DeadCenter is free for personal, non-commercial use only. Any business, organizational or client use (companies, sole traders, non-profits, and agencies or contractors working for clients) needs a separate commercial license from TAPATCH before use. Full terms: https://tapatch.com/terms/software/
+
+DeadCenter draws a crosshair in the exact middle of your screen, on top of any game. Pick one of 14 shapes and set its size, gap, thickness, color, opacity and outline, or draw your own pixel by pixel with mirror, fill and undo. Put a dot, any emoji or your own picture in the middle. Save the looks you like and switch between them with one click. Ctrl+Shift+X shows or hides it in game, and it can stay out of OBS, Discord, screenshots and clips while you still see it. It's a see-through window on top of the screen: it never touches the game (no injection, no hooks, no memory reads), and it never goes online.
+
+## Features
+- **Exactly in the middle** - The crosshair lands on the true center pixel of your screen at any resolution and display scaling. Pick the monitor, and nudge it a pixel at a time if a game's own center is off.
+- **Draw your own** - Draw a crosshair pixel by pixel on a grid, with mirroring (left-right, up-down or all 4 sides), fill, an eyedropper and undo. Or start from any of the 14 shapes and change it.
+- **Emoji or a picture in the middle** - Put a dot, any emoji or letter, or your own picture (PNG, JPG, GIF, BMP, WebP or ICO) in the middle, and cut it into a circle if you like.
+- **Your crosshairs, one click away** - Save up to 40 looks and switch between them with one click. Ctrl+Shift+X shows or hides the crosshair in game, or pick any hotkey you like.
+- **Hidden from streams** - One switch keeps the crosshair out of OBS, Discord, screenshots and clips, while you still see it on your screen.
+- **Never touches the game** - DeadCenter is a see-through window that clicks pass through. It never injects into a game, hooks it or reads its memory, and nothing goes online.
+- **Themes and backgrounds** - 5 themes or your own colors, any picture or GIF as the window's background, and 10 languages.
+
+## Notes
+- Free for personal use. Business or commercial use requires a paid license (see https://tapatch.com/terms/software/).
+- Windows 10/11, 64-bit. Runs fully locally; no ads, no telemetry, no bundled offers.
+- Available in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean.
+- The Terms of Service are shown on first launch and must be accepted to use the app.
+</description>
+    <releaseNotes>- First release
+- A crosshair in the exact middle of the screen, over any game, on any monitor
+- 14 shapes, or draw your own pixel by pixel
+- A dot, any emoji or your own picture in the middle
+- Save looks and switch with one click; Ctrl+Shift+X shows or hides it in game
+- Can stay hidden from OBS, Discord, screenshots and clips
+- 10 languages, 5 themes plus your own colors, background pictures and GIFs
+
+Full changelog: https://tapatch.com/tools/deadcenter/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
